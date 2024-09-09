@@ -1,0 +1,11 @@
+<metadata>
+  <title><![CDATA[ Type DEF Mod - Multiverse ]]></title>
+  <threadUrl><![CDATA[https://subsetgames.com/forum/viewtopic.php?f=11&t=35332]]></threadUrl> <!-- Actually the original vanilla mod's thread, but this version isn't published yet! -->
+  <author><![CDATA[ MrKheese, Onceuponaban ]]></author>
+  <version><![CDATA[ 2024-09-09-1-dev ]]></version> <!-- Until I actually complete the port, versioning will be [YYY-MM-DD date]-[commit number]-dev, then I will transition to major.minor.patch... not that I expect the major number to ever be over 1. -->
+  <description>
+<![CDATA[ 
+A port of MrKheese's Type D/E/F mod, originally a mod for vanilla FTL, as an FTL: Multiverse addon.
+]]> <!-- Remember to mention what changed when relevant -->
+  </description>
+</metadata>
