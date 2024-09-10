@@ -1,0 +1,12 @@
+<animSheet name="def_laser_speed_2" w="276" h="64" fw="23" fh="64">weapons/def_laser_speed_2_strip12.png</animSheet>
+
+<weaponAnim name="def_laser_speed_2">
+	<sheet>def_laser_speed_2</sheet>
+	<desc length="12" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint  x="12" y="10"/>
+	<mountPoint x="3" y="44"/>
+</weaponAnim>
+
+<animSheet name="beam_bio_2" w="330" h="75" fw="33" fh="75">weapons/beam_bio2_strip10.png</animSheet>

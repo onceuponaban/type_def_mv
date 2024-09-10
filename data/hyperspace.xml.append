@@ -1,0 +1,21 @@
+<mod:findLike type="ships" limit="1">
+	<mod:findLike type="shipOrder">
+		<mod-append:ship>DEF_PLAYER_SHIP_KESTREL</mod-append:ship>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+		<mod-append:empty/>
+	</mod:findLike>
+
+    <mod-append:ship name="DEF_PLAYER_SHIP_KESTREL" b="false" c="false" secret="false">
+	</mod-append:ship>
+  <mod-append:customShip name="DEF_PLAYER_SHIP_KESTREL">
+        <hiddenAug>SHIP_KESTREL</hiddenAug>
+        <hiddenAug>FOR_MULTIVERSE</hiddenAug>
+  </mod-append:customShip>
+</mod:findLike>

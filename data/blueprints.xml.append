@@ -1,0 +1,116 @@
+<weaponBlueprint name="DEF_LASER_SPEED_2">
+	<type>BURST</type>
+	<flavorType>Laser Blast</flavorType>
+	<title>Speed Laser Mark II</title>
+	<short>Speed Laser II</short>
+	<desc>This modified burst laser sacrifices accuracy for power and speed.</desc>
+	<tooltip>This modified burst laser sacrifices accuracy for power and speed.</tooltip>
+	<radius>52</radius>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>8</cooldown>
+	<power>3</power>
+	<cost>60</cost>
+	<bp>10</bp>
+	<speed>60</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="4" fake="false">laser_light2</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>def_laser_speed_2</weaponArt>
+	<iconImage>laser</iconImage>
+</weaponBlueprint>
+
+<shipBlueprint name="DEF_PLAYER_SHIP_KESTREL" layout="def_kestral" img="def_kestral">
+	<class>Kestrel Cruiser</class>
+	<name>The Hot Rod</name>
+	<desc>The captain let their son decide on a new paint job for the hull. It definitely looks... umm... yeah. It certainly matches the hasty maneuvers this ship is known for.</desc>
+	<systemList>
+		<battery power="1" room="12" start="false" img="room_battery_9" />
+		<cloaking power="1" room="5" start="false" img="room_cloaking_11" />
+		<clonebay power="1" room="3" start="true">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="18" start="true" img="room_doors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones power="2" room="8" start="false" img="room_drones_12" />
+		<engines power="3" room="13" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="10" start="false" img="room_hacking_4" />
+		<medbay power="1" room="3" start="false" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="4" start="false" img="room_mind_10_rfc" />
+		<oxygen power="1" room="11" start="true" img="room_oxygen" />
+		<pilot power="1" room="9" start="true" img="room_pilot_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="14" start="true" img="room_sensors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="15" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="17" start="false" />
+		<weapons power="3" room="6" start="true" img="room_weapons_2_fh">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="4" count="4">
+		<weapon name="DEF_LASER_SPEED_2" />
+	</weaponList>
+	<droneList drones="2" count="2" />
+	<health amount="30" />
+	<maxPower amount="9" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="human" />
+	<aug name="EX_FTL_BOOSTER" />
+</shipBlueprint>
